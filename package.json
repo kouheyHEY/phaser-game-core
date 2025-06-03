@@ -1,0 +1,27 @@
+{
+  "name": "phaser-game-core",
+  "version": "0.1.0",
+  "description": "Reusable core utilities for Phaser games",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": ["phaser", "game", "typescript"],
+  "author": "murikocreation",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "phaser": ">=3.60.0"
+  }
+}
