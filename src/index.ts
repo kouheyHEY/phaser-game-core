@@ -14,3 +14,12 @@ export {
   FontAssetOptions,
   LoadProgress,
 } from "./systems/AssetsManager";
+export {
+  SoundManager,
+  SoundCategoryConfig,
+  SoundConfig,
+  SoundRegistration,
+  SoundManagerSettings,
+  SoundManagerDebugInfo,
+  createSoundManager,
+} from "./systems/SoundManager";
